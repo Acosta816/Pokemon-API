@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pokedex</title>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+  crossorigin="anonymous"></script>
+  <script src="config.js"></script>
+</head>
+<body style="background:rgba(255, 0, 0, 0.815)">
+    
+    <form role="form">
+        <label for="search" >SEARCH FOR POKEMON</label>
+        <input type="text" id="search" placeholder="voltorb">
+        <button type="submit">GO!</button>
+    </form>
+
+    <main style="display: flex; justify-content:space-between;">
+        <section style="display: inline-block;" id="results">
+            <img style="max-width: 300px; border-radius: 50%;" src="http://pngimg.com/uploads/pokeball/pokeball_PNG29.png">
+        </section>
+        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTBhnAJPx63wh9e_nm6iitEX3iiewCS7dMzTYZIAeVqZk-CRe8B0rLqCQAucX6jfipXsiJQ0z6n9ZcY/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" style="
+        width: fit-content;
+        height: -webkit-fill-available;
+        justify-self: right;
+    "></iframe>    
+    </main>
+
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
